@@ -447,7 +447,7 @@
             <div class="col-twelve">
 
                 <!-- form -->
-                <form name="contactForm" id="contactForm" method="" action="">
+                <form name="contactForm" id="contactForm" method="post" action="">
                     <fieldset>
 
                         <div class="form-field">
@@ -460,7 +460,7 @@
                             <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
                         </div>
                         <div class="form-field">
-                            <textarea name="contactMessage" id="contactMessage" placeholder="message" required=""></textarea>
+                            <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
                         </div>
                         <div class="form-field">
                             <div id="submit-loader">
@@ -475,7 +475,9 @@
 
                     </fieldset>
                 </form>
-                <button class="submitform" onclick="sendEmail()">Submit</button>
+                <!-- Form End -->
+
+                <button class="submitform">Submit</button>
                 <!-- Form End -->
 
                 <!-- contact-warning -->
